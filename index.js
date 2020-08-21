@@ -56,7 +56,6 @@ function maxOf(array){
   if(array.length === 1){
     return array[0]
   } else {
-    //let max = 0;
     return Math.max(array[0], maxOf(array.slice(1)))
   }
 }
