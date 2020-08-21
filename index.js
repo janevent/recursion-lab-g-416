@@ -60,6 +60,6 @@ function maxOf(array){
   }
 }
 
-function includesNumber(){
+function includesNumber(array, number){
   
 }
