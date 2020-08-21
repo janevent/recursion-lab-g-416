@@ -58,17 +58,5 @@ function maxOf(array){
   } else {
     //let max = 0;
     return Math.max(array[0], maxOf(array.slice(1)))
-    // if(array[0] > max){
-      
-    //   max = array[0];
-    //   console.log('max', max)
-    //   if(array.length > 0){
-    //     return maxOf(array.slice(1, array.length))
-    //   }
-    // }
-    // //maxOf(array.slice(0, array.length-1))
-    // return max
   }
 }
-
-//console.log('call addupTo', addUpTo([1,2,3,4], 2))
