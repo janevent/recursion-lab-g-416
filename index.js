@@ -59,3 +59,7 @@ function maxOf(array){
     return Math.max(array[0], maxOf(array.slice(1)))
   }
 }
+
+function includesNumber(){
+  
+}
