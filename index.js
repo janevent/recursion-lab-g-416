@@ -69,6 +69,7 @@ function includesNumber(array, number){
     }
   }else {
     if(array[0] === number){
+      console.log('array[0]', array[0])
       return true
     }else{
       return includesNumber(array.slice(1), number)
